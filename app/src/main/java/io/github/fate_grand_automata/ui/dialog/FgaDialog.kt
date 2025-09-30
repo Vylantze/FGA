@@ -281,7 +281,6 @@ fun <T> FgaDialog.singleChoiceList(
             contentPadding = PaddingValues(16.dp, 0.dp),
             modifier = modifier
                 .fillMaxWidth()
-                .fillMaxHeight()
         ) {
             items(items) {
                 ChoiceListItem(
